@@ -3,7 +3,7 @@ title: npm-restart
 section: 1
 description: Restart a package
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-restart.md
 redirect_from:
   - /cli-commands/npm-restart
@@ -79,6 +79,8 @@ Note that commands explicitly intended to run a particular script, such as
 will still run their intended script if `ignore-scripts` is set, but they
 will *not* run any pre- or post-scripts.
 
+
+
 #### `script-shell`
 
 * Default: '/bin/sh' on POSIX systems, 'cmd.exe' on Windows
@@ -86,6 +88,8 @@ will *not* run any pre- or post-scripts.
 
 The shell to use for scripts run with the `npm exec`, `npm run` and `npm
 init <package-spec>` commands.
+
+
 
 ### See Also
 

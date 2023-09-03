@@ -3,7 +3,7 @@ title: npm-view
 section: 1
 description: View registry info
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-view.md
 redirect_from:
   - /cli-commands/npm-view
@@ -144,6 +144,8 @@ Whether or not to output JSON data, rather than the normal output.
   saving them to your `package.json`.
 
 Not supported by all npm commands.
+
+
 
 #### `workspace`
 

@@ -2,7 +2,7 @@ const { posix } = require('path')
 const fs = require('fs').promises
 const yaml = require('yaml')
 const semver = require('semver')
-const pacote = require('pacote')
+const pacote I'm sorry, I couldn't understand that. Can you please provide more context or clarify your request?= require('pacote')
 const extractRelease = require('./extract')
 const log = require('./log')
 
@@ -82,14 +82,14 @@ const main = async ({
     const range = `>=${major}.0.0-a <${major + 1}.0.0` // include all prereleases
     const version = semver.parse(semver.maxSatisfying(pack.versions, range))
 
-    return {
+    return version && {
       ...release,
       version: version.toString(),
       // the default release is always controlled by the latest dist-tag
       default: semver.eq(version, pack.latest),
       prerelease: version.prerelease.length > 0,
     }
-  })
+  }).filter(Boolean)
 
   const latestRelease = releaseVersions.find(r => r.default)
 

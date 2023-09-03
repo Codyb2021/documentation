@@ -3,7 +3,7 @@ title: npm-explore
 section: 1
 description: Browse an installed package
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-explore.md
 redirect_from:
   - /cli-commands/explore
@@ -69,6 +69,8 @@ sure to use `npm rebuild <pkg>` if you make any changes.
 * Type: String
 
 The shell to run for the `npm explore` command.
+
+
 
 ### See Also
 

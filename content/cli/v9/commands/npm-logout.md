@@ -3,7 +3,7 @@ title: npm-logout
 section: 1
 description: Log out of the registry
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-logout.md
 redirect_from:
   - /cli-commands/logout
@@ -65,6 +65,8 @@ connected to that scope, if set.
 
 The base URL of the npm registry.
 
+
+
 #### `scope`
 
 * Default: the scope of the current project, if any, or ""
@@ -93,6 +95,7 @@ This will also cause `npm init` to create a scoped package.
 # instead of just named "whatever"
 npm init --scope=@foo --yes
 ```
+
 
 
 ### See Also

@@ -3,7 +3,7 @@ title: npm-pack
 section: 1
 description: Create a tarball from a package
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-pack.md
 redirect_from:
   - /cli-commands/npm-pack
@@ -56,6 +56,8 @@ commands that modify your local installation, eg, `install`, `update`,
 Note: This is NOT honored by other network related commands, eg `dist-tags`,
 `owner`, etc.
 
+
+
 #### `json`
 
 * Default: false
@@ -68,12 +70,16 @@ Whether or not to output JSON data, rather than the normal output.
 
 Not supported by all npm commands.
 
+
+
 #### `pack-destination`
 
 * Default: "."
 * Type: String
 
 Directory in which `npm pack` will save tarballs.
+
+
 
 #### `workspace`
 

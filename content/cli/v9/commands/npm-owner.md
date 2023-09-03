@@ -3,7 +3,7 @@ title: npm-owner
 section: 1
 description: Manage package owners
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-owner.md
 redirect_from:
   - /cli-commands/npm-owner
@@ -73,6 +73,8 @@ flow when changing ownership or include an otp on the command line with `--otp`.
 
 The base URL of the npm registry.
 
+
+
 #### `otp`
 
 * Default: null
@@ -83,6 +85,8 @@ when publishing or changing package permissions with `npm access`.
 
 If not set, and a registry response fails with a challenge for a one-time
 password, npm will prompt on the command line for one.
+
+
 
 #### `workspace`
 

@@ -3,7 +3,7 @@ title: npm-root
 section: 1
 description: Display npm root
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-root.md
 redirect_from:
   - /cli-commands/npm-root
@@ -71,6 +71,8 @@ folder instead of the current working directory. See
   of the current working directory.
 * bin files are linked to `{prefix}/bin`
 * man pages are linked to `{prefix}/share/man`
+
+
 
 ### See Also
 

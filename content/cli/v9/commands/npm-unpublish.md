@@ -3,7 +3,7 @@ title: npm-unpublish
 section: 1
 description: Remove a package from the registry
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-unpublish.md
 redirect_from:
   - /cli-commands/npm-unpublish
@@ -83,6 +83,8 @@ commands that modify your local installation, eg, `install`, `update`,
 Note: This is NOT honored by other network related commands, eg `dist-tags`,
 `owner`, etc.
 
+
+
 #### `force`
 
 * Default: false
@@ -108,6 +110,8 @@ mistakes, unnecessary performance degradation, and malicious input.
 
 If you don't have a clear idea of what you want to do, it is strongly
 recommended that you do not use this option!
+
+
 
 #### `workspace`
 

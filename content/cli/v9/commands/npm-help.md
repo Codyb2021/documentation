@@ -3,7 +3,7 @@ title: npm-help
 section: 1
 description: Get help on npm
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-help.md
 redirect_from:
   - /cli-commands/help
@@ -64,6 +64,8 @@ topic, so unique matches are equivalent to specifying a topic name.
 The program to use to view help content.
 
 Set to `"browser"` to view html help content in the default web browser.
+
+
 
 ### See Also
 

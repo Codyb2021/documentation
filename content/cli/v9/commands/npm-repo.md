@@ -3,7 +3,7 @@ title: npm-repo
 section: 1
 description: Open package repository page in the browser
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-repo.md
 redirect_from:
   - /cli-commands/npm-repo
@@ -63,12 +63,16 @@ terminal.
 
 Set to `true` to use default system URL opener.
 
+
+
 #### `registry`
 
 * Default: "https://registry.npmjs.org/"
 * Type: URL
 
 The base URL of the npm registry.
+
+
 
 #### `workspace`
 

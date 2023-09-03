@@ -3,7 +3,7 @@ title: package.json
 section: 5
 description: Specifics of npm's package.json handling
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/configuring-npm/package-json.md
 redirect_from:
   - /cli-documentation/configuring-npm/package-json
@@ -301,9 +301,6 @@ your package it will not override the "files" field, but in subdirectories
 it will. The `.npmignore` file works just like a `.gitignore`. If there is
 a `.gitignore` file, and `.npmignore` is missing, `.gitignore`'s contents
 will be used instead.
-
-Files included with the "package.json#files" field _cannot_ be excluded
-through `.npmignore` or `.gitignore`.
 
 Certain files are always included, regardless of settings:
 

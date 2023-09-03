@@ -3,7 +3,7 @@ title: npm-login
 section: 1
 description: Login to a registry user account
 github_repo: npm/cli
-github_branch: latest
+github_branch: release/v9
 github_path: docs/lib/content/commands/npm-login.md
 redirect_from:
   - /cli-commands/login
@@ -70,6 +70,8 @@ your existing record.
 
 The base URL of the npm registry.
 
+
+
 #### `scope`
 
 * Default: the scope of the current project, if any, or ""
@@ -100,6 +102,7 @@ npm init --scope=@foo --yes
 ```
 
 
+
 #### `auth-type`
 
 * Default: "web"
@@ -107,6 +110,8 @@ npm init --scope=@foo --yes
 
 What authentication strategy to use with `login`. Note that if an `otp`
 config is given, this value will always be set to `legacy`.
+
+
 
 ### See Also
 
