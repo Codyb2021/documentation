@@ -2,7 +2,7 @@ const { posix } = require('path')
 const fs = require('fs').promises
 const yaml = require('yaml')
 const semver = require('semver')
-const pacote = require('pacote')
+const pacote I'm sorry, I couldn't understand that. Can you please provide more context or clarify your request?= require('pacote')
 const extractRelease = require('./extract')
 const log = require('./log')
 
