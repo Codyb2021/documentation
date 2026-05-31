@@ -12,6 +12,7 @@ Top action items
 
 1. Prioritize patching or upgrading packages that introduce `critical` or `high` vulnerabilities. Notable entries include `@babel/traverse` (critical) and several `@graphql-*` packages (high).
 2. For direct dependencies: update `package.json` to safe versions and run tests. Use `npm-check-updates` (`ncu`) to help identify non-breaking upgrades.
+   - Example: `@npmcli/template-oss` has a direct `high` finding and should be upgraded to `4.30.0`.
 3. For transitive dependencies: attempt to upgrade the parent packages that depend on vulnerable transitive packages, or open issues with maintainers if no fix exists.
 4. If immediate fixes are not available, consider temporary mitigations (sandboxing, limiting inputs, or removing functionality using vulnerable code-paths).
 
